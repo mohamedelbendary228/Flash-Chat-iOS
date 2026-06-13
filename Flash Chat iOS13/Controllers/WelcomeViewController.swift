@@ -7,10 +7,6 @@ class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        starTextAnimation()
-    }
-
-    func starTextAnimation() {
         titleLabel.text = "⚡️FlashChat"
     }
 
